@@ -14,6 +14,7 @@ public class RegisterFragment extends Fragment {
     }
     /*TODO 3 поля в базе данных: Логин, почта, пароль. так что сделать 3 поля EditText в xml
         сделать валидацию(if else можно)
+        сделать кнопку "Регистрация"
         при регистрации перенос на ProfileFragment с помощью NavController(backStack чистим)
     * */
     public static RegisterFragment newInstance() {

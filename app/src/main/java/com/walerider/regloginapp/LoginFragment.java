@@ -14,6 +14,7 @@ public class LoginFragment extends Fragment {
     }
     /*TODO 2 поля при вводе: Логин, пароль.Сделать 2 поля EditText в xml
             сделать валидацию(if else можно)
+            сделать кнопку "Вход"
             при логине перенос на ProfileFragment с помощью NavController(backStack чистим)
         * */
     public static LoginFragment newInstance() {
